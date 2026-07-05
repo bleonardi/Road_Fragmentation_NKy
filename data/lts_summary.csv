@@ -1,0 +1,9 @@
+region,lts_label,segments,length_km,pct_length
+Cincinnati (Hamilton Co.),LTS 1 <e2><80><94> Low stress,13743,3692.25702917488,60.665317116038295
+Cincinnati (Hamilton Co.),LTS 2 <e2><80><94> Moderate,311,94.7752277080663,1.5571963701940479
+Cincinnati (Hamilton Co.),LTS 3 <e2><80><94> High stress,1132,501.60010762640076,8.241498182317706
+Cincinnati (Hamilton Co.),LTS 4 <e2><80><94> Very high stress,11107,1797.6409868892315,29.535988331449943
+Northern Kentucky,LTS 1 <e2><80><94> Low stress,7891,1921.6579852268828,63.98679869456071
+Northern Kentucky,LTS 2 <e2><80><94> Moderate,180,55.104211589961956,1.8348437241880375
+Northern Kentucky,LTS 3 <e2><80><94> High stress,420,156.62506448522146,5.215255029138395
+Northern Kentucky,LTS 4 <e2><80><94> Very high stress,3734,869.8228139509033,28.963102552112858

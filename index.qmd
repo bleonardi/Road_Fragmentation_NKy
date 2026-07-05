@@ -1,0 +1,203 @@
+---
+title: "Road Design Fragmentation: Northern Kentucky vs. Cincinnati"
+subtitle: "Does municipal fragmentation produce worse pedestrian environments?"
+date: today
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(sf)
+library(scales)
+```
+
+## Motivation
+
+Cincinnati and Northern Kentucky share a metro economy separated by the Ohio River — and by a sharp political boundary. Cincinnati operates under a single city engineering department with a [Complete Streets ordinance](https://www.citybeat.com/news/cincinnati-adopts-complete-streets-policy-to-prioritize-pedestrian-safety-accessibility-14323235/) adopted in 2024. Northern Kentucky's urban core is governed by dozens of independent municipalities — Covington, Newport, Florence, Erlanger, Fort Mitchell, Fort Wright, and others — each setting its own road design standards, signal timing, and right-of-way rules.
+
+The transit fragmentation literature documents how governance patchworks depress ridership. The hypothesis here is the same mechanism on road design: fragmented jurisdiction → inconsistent standards → pedestrian-hostile outcomes.
+
+---
+
+## Data Sources
+
+Three road inventory sources are combined, with official DOT data taking priority over OSM:
+
+| Source | Region | Coverage | Key fields |
+|--------|--------|----------|------------|
+| **ODOT Road Inventory** (TIMS) | Cincinnati / Hamilton Co. | 23,342 segments | Speed, lanes, lane width, bike lane, ADT, shoulder |
+| **KYTC Speed Limits** (ArcGIS REST) | NKy — state + city streets | 400 segments | Posted speed |
+| **KYTC LRS Shapefile** | NKy — state roads only | 747 segments | Lanes, lane width |
+| **OpenStreetMap** | Both | 49k segments | Highway type, speed, lanes, sidewalk, surface |
+
+OSM fills gaps where DOT data is absent; highway-type defaults fill any remaining nulls. All sources are spatially joined within 50 m of each OSM centroid.
+
+---
+
+## Pedestrian Hostility Index
+
+Each segment is scored 0–1 on each available dimension, then combined as a weighted mean over non-null components. Higher = more hostile to pedestrians.
+
+| Component | Weight | Priority |
+|-----------|--------|----------|
+| Posted speed | 30% | ODOT > KYTC > OSM > imputed |
+| Highway type | 25% | OSM (near-complete) |
+| Lane count | 20% | ODOT > KYTC > OSM > imputed |
+| Lane width | 10% | ODOT / KYTC only |
+| Sidewalk presence | 8% | OSM (~8% observed) |
+| Bike infrastructure | 4% | ODOT / OSM |
+| Surface quality | 3% | OSM (~18% observed) |
+
+### Data Coverage After DOT Join
+
+```{r coverage}
+coverage <- read_csv("data/coverage_summary.csv", show_col_types = FALSE)
+
+coverage |>
+  mutate(across(where(is.numeric) & !n, \(x) paste0(round(x, 1), "%"))) |>
+  rename(
+    Region             = region,
+    Segments           = n,
+    `Speed (DOT)`      = pct_speed_dot,
+    `Speed (OSM)`      = pct_speed_osm,
+    `Speed (imputed)`  = pct_speed_imputed,
+    `Lanes (DOT)`      = pct_lanes_dot,
+    `Lanes (OSM)`      = pct_lanes_osm,
+    `Lanes (imputed)`  = pct_lanes_imputed,
+    `Width observed`   = pct_width,
+    `Sidewalk observed`= pct_sidewalk,
+    `Bike observed`    = pct_bike
+  )
+```
+
+The asymmetry is stark: ODOT matches 89% of Cincinnati segments with official speed data; KYTC's state-road shapefile only reaches 3.7% of NKy. NKy's city and county roads — which carry most of the pedestrian activity — have no centralized official inventory available, only OSM. This is itself a governance finding: Cincinnati has an institutionally mapped road network; NKy doesn't.
+
+---
+
+## Results
+
+```{r load}
+roads        <- st_read("data/roads_hostility.gpkg", quiet = TRUE)
+summary_tbl  <- read_csv("data/hostility_summary.csv", show_col_types = FALSE)
+type_summary <- read_csv("data/type_summary.csv",      show_col_types = FALSE)
+```
+
+### Overall Distribution
+
+```{r dist-plot, fig.width=8, fig.height=4.5}
+ggplot(
+  st_drop_geometry(roads) |> filter(region != "Outside Study Area"),
+  aes(x = hostility_index, fill = region, color = region)
+) +
+  geom_density(alpha = 0.35, linewidth = 0.8) +
+  scale_fill_manual(values  = c("Cincinnati (Hamilton Co.)" = "#2c3e50",
+                                "Northern Kentucky"          = "#c0392b")) +
+  scale_color_manual(values = c("Cincinnati (Hamilton Co.)" = "#2c3e50",
+                                "Northern Kentucky"          = "#c0392b")) +
+  scale_x_continuous(limits = c(0, 1)) +
+  labs(
+    title = "Pedestrian Hostility Index Distribution",
+    x     = "Hostility Index (0 = friendly → 1 = hostile)",
+    y     = "Density",
+    fill  = NULL, color = NULL
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(legend.position = "bottom")
+```
+
+```{r summary-table}
+summary_tbl |>
+  mutate(
+    mean_hostility   = round(mean_hostility, 3),
+    median_hostility = round(median_hostility, 3),
+    pct_high         = paste0(round(pct_high, 1), "%"),
+    mean_speed       = round(mean_speed, 1),
+    mean_lanes       = round(mean_lanes, 2),
+    mean_width_ft    = round(mean_width_ft, 1),
+    length_km        = round(length_km, 0)
+  ) |>
+  rename(
+    Region              = region,
+    Segments            = n,
+    `Mean hostility`    = mean_hostility,
+    `Median hostility`  = median_hostility,
+    `% score > 0.6`     = pct_high,
+    `Mean speed (mph)`  = mean_speed,
+    `Mean lanes`        = mean_lanes,
+    `Mean lane width (ft)` = mean_width_ft,
+    `Network (km)`      = length_km
+  )
+```
+
+### By Road Type
+
+The aggregate scores are similar, but the breakdown by highway type surfaces the real signal.
+
+```{r by-type-plot, fig.width=9, fig.height=5}
+type_order <- c("primary","secondary","tertiary","unclassified","residential")
+
+type_summary |>
+  mutate(highway = factor(highway, levels = type_order)) |>
+  ggplot(aes(x = highway, y = mean_hostility, fill = region)) +
+  geom_col(position = "dodge", width = 0.65) +
+  scale_fill_manual(values = c("Cincinnati (Hamilton Co.)" = "#2c3e50",
+                               "Northern Kentucky"          = "#c0392b")) +
+  scale_y_continuous(limits = c(0, 0.75)) +
+  labs(
+    title = "Mean Hostility by Road Type",
+    x = NULL, y = "Mean hostility index", fill = NULL
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(legend.position = "bottom", panel.grid.major.x = element_blank())
+```
+
+```{r by-type-table}
+type_summary |>
+  mutate(
+    highway        = factor(highway, levels = type_order),
+    mean_hostility = round(mean_hostility, 3),
+    mean_speed     = round(mean_speed, 1),
+    mean_lanes     = round(mean_lanes, 2)
+  ) |>
+  arrange(highway, region) |>
+  rename(
+    Region          = region,
+    `Road type`     = highway,
+    Segments        = n,
+    `Mean hostility`= mean_hostility,
+    `Mean speed`    = mean_speed,
+    `Mean lanes`    = mean_lanes
+  )
+```
+
+**Primary roads are the clearest signal.** NKy primaries average 40.3 mph and score 0.592 hostility; Cincinnati primaries average 34.9 mph and score 0.534. This gap reflects design intent: NKy primary arterials (US routes through Florence, Erlanger, and Fort Mitchell / Fort Wright) function as high-speed through-routes while also serving local access, with no coordinating authority to enforce lower design speeds. Cincinnati's primary network operates under city engineering standards that impose more consistent constraints.
+
+### Speed Distribution on Primary Roads
+
+```{r speed-primary, fig.width=8, fig.height=4}
+st_drop_geometry(roads) |>
+  filter(region != "Outside Study Area", highway == "primary") |>
+  ggplot(aes(x = speed_final, fill = region, color = region)) +
+  geom_density(alpha = 0.35, linewidth = 0.8) +
+  scale_fill_manual(values  = c("Cincinnati (Hamilton Co.)" = "#2c3e50",
+                                "Northern Kentucky"          = "#c0392b")) +
+  scale_color_manual(values = c("Cincinnati (Hamilton Co.)" = "#2c3e50",
+                                "Northern Kentucky"          = "#c0392b")) +
+  scale_x_continuous(breaks = seq(15, 70, 5)) +
+  labs(
+    title = "Posted Speed Distribution — Primary Roads Only",
+    x = "Posted speed (mph)", y = "Density",
+    fill = NULL, color = NULL
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(legend.position = "bottom")
+```
+
+---
+
+## Interpretation
+
+The aggregate hostility scores are close (0.341 vs. 0.310), which would seem to undercut the fragmentation hypothesis — but the aggregate obscures where the effect lives. **On the road types that matter most for pedestrian mobility — primary and secondary arterials — NKy is meaningfully worse**, with higher design speeds and higher hostility scores.
+
+The fragmentation mechanism here isn't "NKy has uniformly worse roads." It's that the NKy patchwork can't enforce consistent design standards on its arterial network. Each municipality makes independent decisions about design speed, access management, and pedestrian accommodation on roads that carry cross-jurisdictional traffic. The result is a primary road network calibrated for throughput, not for the pedestrian trying to walk from Newport to Covington.
+
+The data coverage asymmetry is also worth flagging: Cincinnati has a comprehensive official road inventory; NKy doesn't. That institutional gap is a precondition for the design gap — you can't coordinate what you haven't measured.

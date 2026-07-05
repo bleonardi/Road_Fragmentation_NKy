@@ -1,0 +1,49 @@
+---
+title: "Hostility Map"
+subtitle: "Pedestrian hostility index across the study area"
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(sf)
+library(leaflet)
+```
+
+```{r hostility-map}
+roads <- st_read("data/roads_hostility.gpkg", quiet = TRUE) |>
+  filter(region != "Outside Study Area") |>
+  st_transform(4326)
+
+pal <- colorNumeric(
+  palette = c("#2ecc71","#f1c40f","#e67e22","#e74c3c"),
+  domain  = c(0, 1),
+  na.color = "#cccccc"
+)
+
+leaflet(roads) |>
+  addProviderTiles(providers$CartoDB.Positron) |>
+  addCircleMarkers(
+    color       = ~pal(hostility_index),
+    fillColor   = ~pal(hostility_index),
+    fillOpacity = 0.75,
+    stroke      = FALSE,
+    radius      = 3,
+    popup       = ~paste0(
+      "<b>", coalesce(name, "(unnamed)"), "</b><br>",
+      "Type: ", highway, "<br>",
+      "Speed: ", round(speed_final, 0), " mph<br>",
+      "Lanes: ", lanes_final, "<br>",
+      "Sidewalk: ", coalesce(sidewalk, "unknown"), "<br>",
+      "Hostility: ", round(hostility_index, 3), "<br>",
+      "Components used: ", components_used, "/5<br>",
+      "Region: ", region
+    )
+  ) |>
+  addLegend(
+    pal      = pal,
+    values   = ~hostility_index,
+    title    = "Hostility Index",
+    position = "bottomright",
+    labFormat = labelFormat(digits = 2)
+  )
+```

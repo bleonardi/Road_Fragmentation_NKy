@@ -1,0 +1,401 @@
+RT_UNIQUE,RT_DESCR,CNTY_NAME,D_GOV_LEVEL,GOV_LEVEL,SPEEDLIM,MILES,D_DISTRICT
+059-CS-2127  -000,EASTERN AVE,Kenton,City Maintained Roads,04,25.0,1.252,Covington
+008-CR-1058  -000,ROGERS LN,Boone,County Maintained Roads,02,35.0,1.38,Covington
+008-KY-0018  -000,BURLINGTON PIKE,Boone,State Maintained Roads,01,55.0,3.25,Covington
+008-CS-1053  -000,ORLEANS BLVD,Boone,City Maintained Roads,04,25.0,0.838,Covington
+008-KY-0237  -000,PLEASANT VALLEY RD,Boone,State Maintained Roads,01,45.0,1.111,Covington
+059-KY-3070  -000,HOWARD LITZLER DR,Kenton,State Maintained Roads,01,55.0,0.34,Covington
+019-KY-0009  -000,AA HWY,Campbell,State Maintained Roads,01,55.0,16.48,Covington
+019-CS-7089  -000,DODSWORTH LN,Campbell,City Maintained Roads,04,20.0,0.624,Covington
+059-KY-1072  -000,HIGHLAND PIKE,Kenton,State Maintained Roads,01,45.0,1.049,Covington
+008-CS-1308  -000,CAYTON RD,Boone,City Maintained Roads,04,35.0,0.064,Covington
+059-KY-0016  -000,DECOURSEY AVE+EAST 30TH ST+JAMES AVE,Kenton,State Maintained Roads,01,30.0,0.837,Covington
+059-US-0025  -000,DIXIE HWY,Kenton,State Maintained Roads,01,35.0,3.879,Covington
+008-KY-0020  -000,PETERSBURG RD,Boone,State Maintained Roads,01,55.0,1.125,Covington
+059-CS-2206  -000,WEST 6TH ST,Kenton,City Maintained Roads,04,25.0,0.171,Covington
+059-CS-2093  -000,RUSSELL ST,Kenton,City Maintained Roads,04,25.0,0.05,Covington
+019-KY-0445  -000,GRANDVIEW AVE,Campbell,State Maintained Roads,01,30.0,0.238,Covington
+008-CR-1311  -000,OLD GRAVES RD,Boone,County Maintained Roads,02,35.0,0.044,Covington
+019-KY-2924  -000,TOLLGATE RD,Campbell,State Maintained Roads,01,55.0,1.872,Covington
+059-CS-5076  -000,AUTUMN RD,Kenton,City Maintained Roads,04,20.0,0.815,Covington
+019-KY-0010  -000,E MAIN ST,Campbell,State Maintained Roads,01,25.0,0.805,Covington
+019-CS-1014  -000,E 4TH ST,Campbell,City Maintained Roads,04,25.0,0.174,Covington
+059-CS-5550  -000,HORSEBRANCH RD,Kenton,City Maintained Roads,04,35.0,0.995,Covington
+019-KY-1998  -000,POOLES CREEK RD+INDUSTRIAL RD,Campbell,State Maintained Roads,01,35.0,1.738,Covington
+008-KY-0842  -000,WEAVER RD,Boone,State Maintained Roads,01,55.0,1.846,Covington
+059-KY-1829  -000,RICHARDSON RD,Kenton,State Maintained Roads,01,35.0,0.626,Covington
+019-KY-1120  -000,W 11TH ST,Campbell,State Maintained Roads,01,25.0,0.668,Covington
+059-KY-0017  -000,MADISON PIKE,Kenton,State Maintained Roads,01,45.0,2.048,Covington
+059-KY-1303  -000,BRISTOW RD+TURKEYFOOT RD,Kenton,State Maintained Roads,01,45.0,5.85,Covington
+008-KY-0020  -000,PETERSBURG RD,Boone,State Maintained Roads,01,35.0,0.756,Covington
+019-CS-2031  -000,TAYLOR AVE,Campbell,City Maintained Roads,04,25.0,0.978,Covington
+008-KY-0338  -000,EAST BEND RD,Boone,State Maintained Roads,01,45.0,0.883,Covington
+008-CR-1016J -000,CAYTON RD,Boone,County Maintained Roads,02,35.0,0.101,Covington
+059-KY-0371  -000,ORPHANAGE RD,Kenton,State Maintained Roads,01,45.0,0.91,Covington
+059-CS-9067  -000,HIGHLAND PIKE,Kenton,City Maintained Roads,04,25.0,0.376,Covington
+059-CS-2402  -000,WEST 34TH ST,Kenton,City Maintained Roads,04,25.0,0.358,Covington
+019-KY-0008  -000,MARY INGLES HWY,Campbell,State Maintained Roads,01,45.0,1.659,Covington
+059-CS-8086  -000,WOLF RD,Kenton,City Maintained Roads,04,35.0,0.813,Covington
+059-CS-4128  -000,DUDLEY RD,Kenton,City Maintained Roads,04,35.0,0.677,Covington
+059-KY-3187  -000,KYLES LN,Kenton,State Maintained Roads,01,35.0,0.954,Covington
+019-CS-1120  -000,W 5TH ST,Campbell,City Maintained Roads,04,30.0,0.261,Covington
+059-CS-2002  -000,EAST 15TH ST,Kenton,City Maintained Roads,04,25.0,0.476,Covington
+019-US-0027  -000,ALEXANDRIA PIKE,Campbell,State Maintained Roads,01,40.0,1.446,Covington
+008-KY-3076  -000,MINEOLA PIKE,Boone,State Maintained Roads,01,35.0,0.412,Covington
+019-I -0471  -000,I-471,Campbell,State Maintained Roads,01,55.0,0.315,Covington
+059-KY-0536  -000,MOUNT ZION RD+BRISTOW RD,Kenton,State Maintained Roads,01,35.0,0.491,Covington
+059-I -0275  -000,I-275,Kenton,State Maintained Roads,01,65.0,1.582,Covington
+059-CS-3169  -000,NARROWS RD,Kenton,City Maintained Roads,04,35.0,1.215,Covington
+059-CS-2604  -000,LATONIA AVE,Kenton,City Maintained Roads,04,25.0,0.597,Covington
+008-KY-3608  -000,IDLEWILD BYP,Boone,State Maintained Roads,01,55.0,1.22,Covington
+059-KY-0008  -000,WEST 5TH ST+EAST 5TH ST+GARRARD ST+EAST 4TH ST,Kenton,State Maintained Roads,01,30.0,1.164,Covington
+019-CS-3007  -000,MAIN ST,Campbell,City Maintained Roads,04,25.0,0.055,Covington
+019-US-0027  -000,ALEXANDRIA PIKE,Campbell,State Maintained Roads,01,55.0,9.774,Covington
+059-KY-0016  -000,TAYLOR MILL RD+PRIDE PKWY,Kenton,State Maintained Roads,01,45.0,6.455,Covington
+019-CS-1023  -000,E 11TH ST,Campbell,City Maintained Roads,04,25.0,0.128,Covington
+059-KY-3076  -000,DOLWICK DR,Kenton,State Maintained Roads,01,55.0,2.814,Covington
+008-KY-0236  -000,DONALDSON HWY,Boone,State Maintained Roads,01,50.0,1.991,Covington
+019-KY-0008X -000,FAIRFIELD AVE+SIXTH AVE,Campbell,State Maintained Roads,01,25.0,1.215,Covington
+008-CS-1215  -000,SHELBY ST,Boone,City Maintained Roads,04,25.0,0.252,Covington
+019-KY-1121  -000,PERSIMMON GROVE PIKE,Campbell,State Maintained Roads,01,35.0,0.735,Covington
+059-KY-1072  -000,SLEEPY HOLLOW RD,Kenton,State Maintained Roads,01,55.0,0.826,Covington
+008-KY-0717  -000,THOROUGHBRED BLVD,Boone,State Maintained Roads,01,45.0,0.368,Covington
+059-CS-5079  -000,GARVEY AVE,Kenton,City Maintained Roads,04,30.0,1.652,Covington
+059-CS-2171  -000,WEST 19TH ST,Kenton,City Maintained Roads,04,25.0,0.348,Covington
+059-CS-2097  -000,WEST 15TH ST,Kenton,City Maintained Roads,04,25.0,0.176,Covington
+059-KY-1486C -000,FOWLER CREEK RD CONN,Kenton,State Maintained Roads,01,45.0,0.22,Covington
+008-US-0042  -000,US-42,Boone,State Maintained Roads,01,45.0,2.077,Covington
+019-KY-2238  -000,THREE MILE RD,Campbell,State Maintained Roads,01,35.0,1.153,Covington
+008-CR-1311  -000,OLD GRAVES RD,Boone,County Maintained Roads,02,35.0,0.115,Covington
+019-KY-0010  -000,E MAIN ST+FLAGG SPRINGS PIKE,Campbell,State Maintained Roads,01,55.0,10.785,Covington
+008-CR-1001  -000,CAMP ERNST RD,Boone,County Maintained Roads,02,35.0,4.108,Covington
+059-KY-0371  -000,BUTTERMILK PIKE+COLLINS RD,Kenton,State Maintained Roads,01,40.0,1.129,Covington
+059-KY-0017  -000,MADISON AVE,Kenton,State Maintained Roads,01,25.0,0.747,Covington
+008-KY-0842  -000,HOUSTON RD,Boone,State Maintained Roads,01,45.0,2.57,Covington
+019-KY-1120  -000,MEMORIAL PKWY,Campbell,State Maintained Roads,01,45.0,1.315,Covington
+019-KY-0008  -000,MARY INGLES HWY,Campbell,State Maintained Roads,01,45.0,1.328,Covington
+008-KY-0020  -000,PETERSBURG RD,Boone,State Maintained Roads,01,45.0,1.111,Covington
+019-CS-1248  -000,PAVILION PKWY,Campbell,City Maintained Roads,04,20.0,0.6,Covington
+059-KY-1120  -001,RUSSELL ST+WEST 11TH ST,Kenton,State Maintained Roads,01,25.0,0.138,Covington
+059-CS-4150  -000,HORSEBRANCH RD,Kenton,City Maintained Roads,04,35.0,0.356,Covington
+059-CS-9004  -000,AMSTERDAM RD,Kenton,City Maintained Roads,04,25.0,1.124,Covington
+059-CS-2022  -000,EAST 6TH ST,Kenton,City Maintained Roads,04,25.0,0.176,Covington
+019-US-0027  -000,MONMOUTH ST+E 3RD ST+TAYLOR-SOUTHGATE BRG,Campbell,State Maintained Roads,01,30.0,0.582,Covington
+059-KY-0236  -000,STEVENSON RD,Kenton,State Maintained Roads,01,30.0,1.436,Covington
+008-KY-0338  -000,EAST BEND RD+JEFFERSON ST+IDLEWILD RD,Boone,State Maintained Roads,01,35.0,1.93,Covington
+059-CS-2406  -000,WEST SOUTHERN AVE,Kenton,City Maintained Roads,04,25.0,0.383,Covington
+019-US-0027  -000,ALEXANDRIA PIKE,Campbell,State Maintained Roads,01,45.0,0.515,Covington
+059-CS-1057  -000,TROOPERS XING,Kenton,City Maintained Roads,04,20.0,0.449,Covington
+059-KY-3035  -000,MADISON PIKE,Kenton,State Maintained Roads,01,35.0,0.41,Covington
+019-CS-2034  -000,WILSON RD,Campbell,City Maintained Roads,04,20.0,0.149,Covington
+008-KY-3159  -000,TED BUSHELMAN BLVD,Boone,State Maintained Roads,01,45.0,0.652,Covington
+059-CS-3013  -000,RIGGS AVE,Kenton,City Maintained Roads,04,25.0,0.856,Covington
+059-KY-0842  -000,HOUSTON RD,Kenton,State Maintained Roads,01,45.0,0.061,Covington
+019-KY-0547  -000,FOUR MILE RD,Campbell,State Maintained Roads,01,45.0,1.43,Covington
+019-KY-1632  -000,MOOCK RD,Campbell,State Maintained Roads,01,35.0,1.66,Covington
+059-KY-0177  -000,DECOURSEY PIKE,Kenton,State Maintained Roads,01,55.0,2.186,Covington
+019-US-0027  -000,ALEXANDRIA PIKE,Campbell,State Maintained Roads,01,45.0,0.398,Covington
+059-KY-3035  -000,MADISON PIKE,Kenton,State Maintained Roads,01,45.0,1.925,Covington
+019-CS-1038  -000,E 5TH ST,Campbell,City Maintained Roads,04,25.0,0.085,Covington
+019-CS-4242  -000,TOWER HILL RD,Campbell,City Maintained Roads,04,25.0,0.691,Covington
+019-KY-6335  -000,MARY INGLES HWY,Campbell,State Maintained Roads,01,45.0,4.052,Covington
+008-PR-1012  -000,SOUTH AIRFIELD DR,Boone,Private Roads,26,30.0,0.317,Covington
+059-KY-2045  -000,MCCULLUM PIKE+OLIVER RD,Kenton,State Maintained Roads,01,35.0,1.664,Covington
+008-CS-1254  -000,EWING BLVD,Boone,City Maintained Roads,04,30.0,0.825,Covington
+059-KY-1072  -000,SLEEPY HOLLOW RD+DEVERILL ST,Kenton,State Maintained Roads,01,35.0,0.603,Covington
+008-KY-0717  -000,TURFWAY RD,Boone,State Maintained Roads,01,45.0,1.998,Covington
+019-KY-1996  -000,CARTHAGE RD+WASHINGTON TRACE RD+NEW RICHMOND RD,Campbell,State Maintained Roads,01,35.0,1.683,Covington
+059-KY-0017  -000,MADISON PIKE,Kenton,State Maintained Roads,01,35.0,0.021,Covington
+059-CS-6505  -000,HIGHWATER RD,Kenton,City Maintained Roads,04,35.0,0.045,Covington
+059-CS-2074  -000,PHILADELPHIA ST,Kenton,City Maintained Roads,04,30.0,0.138,Covington
+008-US-0042  -000,US-42,Boone,State Maintained Roads,01,40.0,1.481,Covington
+008-CR-1057B -000,GARRARD ST,Boone,County Maintained Roads,02,25.0,0.191,Covington
+008-CR-1311  -000,OLD GRAVES RD,Boone,County Maintained Roads,02,35.0,0.423,Covington
+008-KY-0018  -000,BURLINGTON PIKE,Boone,State Maintained Roads,01,40.0,1.462,Covington
+019-KY-0010  -000,W MAIN ST,Campbell,State Maintained Roads,01,45.0,0.967,Covington
+059-CS-2098  -000,HIGHLAND PIKE,Kenton,City Maintained Roads,04,25.0,0.38,Covington
+008-KY-0842C -000,QUADRANT RD,Boone,State Maintained Roads,01,35.0,0.141,Covington
+059-CS-2345  -000,WEST 35TH ST,Kenton,City Maintained Roads,04,25.0,0.12,Covington
+059-KY-0008  -000,PIKE ST,Kenton,State Maintained Roads,01,35.0,0.518,Covington
+059-KY-0371  -000,AMSTERDAM RD,Kenton,State Maintained Roads,01,35.0,2.411,Covington
+059-CS-2036  -000,JOHNSON ST,Kenton,City Maintained Roads,04,30.0,0.145,Covington
+019-CS-2001  -000,RIVIERA DR,Campbell,City Maintained Roads,04,25.0,0.431,Covington
+019-KY-0008  -000,MARY INGLES HWY,Campbell,State Maintained Roads,01,35.0,0.748,Covington
+019-CR-1363  -000,COVERT RUN PIKE,Campbell,County Maintained Roads,02,25.0,0.475,Covington
+008-KY-0008  -000,RIVER RD,Boone,State Maintained Roads,01,55.0,6.27,Covington
+019-KY-1120  -000,MEMORIAL PKWY,Campbell,State Maintained Roads,01,35.0,0.248,Covington
+059-KY-1120  -001,WEST 11TH ST,Kenton,State Maintained Roads,01,25.0,0.08,Covington
+059-CS-5074  -000,FOUNDATION DR,Kenton,City Maintained Roads,04,20.0,0.451,Covington
+059-CS-3878  -000,BEECHWOOD RD,Kenton,City Maintained Roads,04,35.0,0.175,Covington
+059-US-0025  -000,CLAY WADE BAILEY BRIDGE,Kenton,State Maintained Roads,01,35.0,0.526,Covington
+008-KY-0020  -000,PETERSBURG RD,Boone,State Maintained Roads,01,55.0,1.091,Covington
+059-CS-9024  -000,GEORGE HUSER DR,Kenton,City Maintained Roads,04,25.0,0.13,Covington
+059-CS-2437  -000,EAST 43RD ST,Kenton,City Maintained Roads,04,25.0,0.49,Covington
+059-KY-0236  -000,COMMONWEALTH AVE,Kenton,State Maintained Roads,01,35.0,0.841,Covington
+019-US-0027  -000,ALEXANDRIA PIKE,Campbell,State Maintained Roads,01,55.0,0.693,Covington
+019-I -0275  -000,I-275,Campbell,State Maintained Roads,01,65.0,4.518,Covington
+059-KY-0717  -000,TURFWAY RD,Kenton,State Maintained Roads,01,45.0,0.368,Covington
+019-KY-0547  -000,FOUR MILE RD,Campbell,State Maintained Roads,01,35.0,0.598,Covington
+059-KY-2373  -000,KENTON LANDS RD+ERLANGER-CRESCENT SPRINGS RD,Kenton,State Maintained Roads,01,35.0,1.094,Covington
+008-KY-3503  -000,SAM NEACE DR,Boone,State Maintained Roads,01,45.0,0.693,Covington
+008-I -0275  -000,I-275,Boone,State Maintained Roads,01,65.0,12.276,Covington
+059-I -0075  -000,I-75,Kenton,State Maintained Roads,01,65.0,0.488,Covington
+008-CS-1144  -000,MAIN ST,Boone,City Maintained Roads,04,25.0,0.534,Covington
+059-CS-2135  -000,EAST 20TH ST,Kenton,City Maintained Roads,04,25.0,0.162,Covington
+059-KY-3070  -000,HOWARD LITZLER DR,Kenton,State Maintained Roads,01,45.0,0.43,Covington
+059-KY-1072  -000,HIGHLAND PIKE+KYLES LN,Kenton,State Maintained Roads,01,35.0,1.074,Covington
+059-CR-1146  -000,INDEPENDENCE STATION RD,Kenton,County Maintained Roads,02,35.0,3.942,Covington
+019-CS-9002  -000,SUNSET DR,Campbell,City Maintained Roads,04,20.0,0.669,Covington
+019-CS-1087  -000,BRIGHTON ST,Campbell,City Maintained Roads,04,25.0,0.104,Covington
+019-KY-0008X -000,E 3RD ST,Campbell,State Maintained Roads,01,30.0,0.182,Covington
+019-KY-3490  -000,JOHNS HILL RD,Campbell,State Maintained Roads,01,35.0,0.207,Covington
+059-KY-0177  -000,DECOURSEY PIKE+DECOURSEY AVE,Kenton,State Maintained Roads,01,45.0,1.749,Covington
+008-CR-1052  -000,BULLITTSVILLE RD,Boone,County Maintained Roads,02,35.0,0.335,Covington
+008-CR-1311  -000,OLD GRAVES RD,Boone,County Maintained Roads,02,35.0,0.408,Covington
+059-CS-2093  -000,RUSSELL ST,Kenton,City Maintained Roads,04,15.0,0.073,Covington
+059-CS-8039  -000,OLD TAYLOR MILL RD,Kenton,City Maintained Roads,04,35.0,0.218,Covington
+059-CS-5076  -000,AUTUMN RD,Kenton,City Maintained Roads,04,35.0,0.022,Covington
+008-KY-0536  -000,MT ZION RD,Boone,State Maintained Roads,01,45.0,1.024,Covington
+008-KY-0842  -000,WEAVER RD,Boone,State Maintained Roads,01,45.0,0.726,Covington
+019-KY-0010  -000,E MAIN ST,Campbell,State Maintained Roads,01,35.0,0.25,Covington
+019-KY-0009  -000,LICKING PIKE,Campbell,State Maintained Roads,01,45.0,1.988,Covington
+059-KY-1930  -000,LOCUST PIKE,Kenton,State Maintained Roads,01,55.0,1.063,Covington
+059-CS-6141  -000,HIGHWATER RD,Kenton,City Maintained Roads,04,35.0,0.158,Covington
+059-KY-0017  -000,GREENUP ST+JOHN ROEBLING BRIDGE,Kenton,State Maintained Roads,01,25.0,1.251,Covington
+008-KY-0018  -000,BURLINGTON PIKE,Boone,State Maintained Roads,01,45.0,1.92,Covington
+019-KY-2238  -000,LOUIE B. NUNN DR+UNIVERSITY DR,Campbell,State Maintained Roads,01,35.0,0.433,Covington
+019-KY-1120  -000,E 10TH ST,Campbell,State Maintained Roads,01,30.0,0.453,Covington
+019-KY-2345  -000,MARTHA L. COLLINS BLVD+JOHNS HILL RD,Campbell,State Maintained Roads,01,35.0,3.316,Covington
+019-CS-2032  -000,BERRY AVE,Campbell,City Maintained Roads,04,20.0,0.353,Covington
+019-KY-0008  -000,INDUSTRIAL RD,Campbell,State Maintained Roads,01,45.0,0.758,Covington
+008-KY-0020  -000,PETERSBURG RD,Boone,State Maintained Roads,01,45.0,1.6,Covington
+059-KY-0017  -000,MADISON PIKE,Kenton,State Maintained Roads,01,30.0,1.616,Covington
+059-KY-0371  -000,ORPHANAGE RD,Kenton,State Maintained Roads,01,35.0,0.907,Covington
+008-US-0025  -000,DIXIE HWY,Boone,State Maintained Roads,01,45.0,5.923,Covington
+059-CS-2217  -000,WEST 7TH ST,Kenton,City Maintained Roads,04,25.0,0.12,Covington
+059-CS-2403  -000,CAROLINE AVE,Kenton,City Maintained Roads,04,25.0,0.156,Covington
+008-KY-0338  -000,EAST BEND RD,Boone,State Maintained Roads,01,55.0,2.095,Covington
+019-KY-0445  -000,MARY INGLES HWY,Campbell,State Maintained Roads,01,45.0,0.059,Covington
+019-KY-0008  -000,MARY INGLES HWY,Campbell,State Maintained Roads,01,55.0,9.834,Covington
+019-CS-1134  -000,CENTRAL AVE,Campbell,City Maintained Roads,04,25.0,0.721,Covington
+059-CS-8096  -000,GRAND AVE,Kenton,City Maintained Roads,04,25.0,0.962,Covington
+059-CS-4128  -000,DUDLEY RD,Kenton,City Maintained Roads,04,25.0,1.187,Covington
+008-KY-3076  -000,DOLWICK RD,Boone,State Maintained Roads,01,55.0,0.326,Covington
+059-CS-3511  -000,AMSTERDAM RD,Kenton,City Maintained Roads,04,25.0,1.059,Covington
+059-CS-2609  -000,WEST 3RD ST,Kenton,City Maintained Roads,04,30.0,0.455,Covington
+008-KY-0237  -000,NORTH BEND RD,Boone,State Maintained Roads,01,45.0,3.621,Covington
+019-CS-4031  -000,HIGHLAND AVE,Campbell,City Maintained Roads,04,25.0,1.384,Covington
+059-KY-2373  -000,BROMLEY-CRESCENT SPRINGS RD+MAIN ST,Kenton,State Maintained Roads,01,20.0,0.46,Covington
+059-KY-0008  -001,WEST 4TH ST+EAST 4TH ST,Kenton,State Maintained Roads,01,30.0,0.99,Covington
+059-KY-0016  -000,PRIDE PKWY+WINSTON AVE,Kenton,State Maintained Roads,01,35.0,0.785,Covington
+019-KY-0008X -000,SIXTH AVE+MAIN ST,Campbell,State Maintained Roads,01,25.0,0.196,Covington
+008-KY-0237  -000,GUNPOWDER RD,Boone,State Maintained Roads,01,35.0,1.588,Covington
+019-CS-4169  -000,N FT THOMAS AVE,Campbell,City Maintained Roads,04,25.0,1.904,Covington
+059-KY-0842  -000,RICHARDSON RD,Kenton,State Maintained Roads,01,35.0,0.449,Covington
+019-CS-1037  -000,SARATOGA ST,Campbell,City Maintained Roads,04,25.0,0.71,Covington
+008-KY-0018  -000,MCVILLE RD,Boone,State Maintained Roads,01,55.0,1.908,Covington
+059-US-0025  -000,DIXIE HWY,Kenton,State Maintained Roads,01,35.0,2.276,Covington
+008-KY-2846  -000,TANNER RD,Boone,State Maintained Roads,01,45.0,1.328,Covington
+019-KY-1121  -000,PERSIMMON GROVE PIKE,Campbell,State Maintained Roads,01,35.0,0.303,Covington
+019-KY-0547  -000,RILEY RD,Campbell,State Maintained Roads,01,30.0,0.47,Covington
+059-KY-0177  -000,DECOURSEY AVE,Kenton,State Maintained Roads,01,30.0,1.031,Covington
+059-KY-1072  -000,SLEEPY HOLLOW RD,Kenton,State Maintained Roads,01,30.0,0.736,Covington
+019-CS-1119  -000,W 4TH ST,Campbell,City Maintained Roads,04,30.0,0.231,Covington
+019-KY-3490  -000,JOHNS HILL RD,Campbell,State Maintained Roads,01,25.0,0.337,Covington
+008-CR-1052  -000,BULLITTSVILLE RD,Boone,County Maintained Roads,02,25.0,0.151,Covington
+059-CS-2203  -000,SCOTT ST,Kenton,City Maintained Roads,04,25.0,0.093,Covington
+059-KY-1501  -000,HANDS PIKE,Kenton,State Maintained Roads,01,35.0,2.245,Covington
+059-KY-1930  -000,LOCUST PIKE,Kenton,State Maintained Roads,01,35.0,2.259,Covington
+008-KY-0536  -000,MT ZION RD,Boone,State Maintained Roads,01,45.0,0.589,Covington
+059-CS-5544  -000,CENTRE VIEW BLVD,Kenton,City Maintained Roads,04,25.0,0.476,Covington
+059-CS-6142  -000,BUTTERMILK PIKE,Kenton,City Maintained Roads,04,35.0,0.527,Covington
+019-KY-0009  -000,LICKING PIKE,Campbell,State Maintained Roads,01,35.0,0.167,Covington
+059-CS-2093  -000,RUSSELL ST,Kenton,City Maintained Roads,04,25.0,0.451,Covington
+008-KY-0018  -000,BURLINGTON PIKE,Boone,State Maintained Roads,01,55.0,0.713,Covington
+008-CR-1295  -000,COUGAR PATH,Boone,County Maintained Roads,02,45.0,0.16,Covington
+059-CS-4128  -000,DUDLEY RD,Kenton,City Maintained Roads,04,35.0,2.041,Covington
+059-KY-0017  -000,MADISON AVE,Kenton,State Maintained Roads,01,25.0,0.209,Covington
+019-KY-0010  -000,E MAIN ST,Campbell,State Maintained Roads,01,45.0,0.458,Covington
+019-KY-2921  -000,WASHINGTON TRACE RD+PAINTER RD,Campbell,State Maintained Roads,01,55.0,2.223,Covington
+008-US-0025  -000,DIXIE HWY,Boone,State Maintained Roads,01,35.0,1.684,Covington
+019-KY-0008  -000,INDUSTRIAL RD,Campbell,State Maintained Roads,01,55.0,1.433,Covington
+019-CS-1207  -000,E 6TH ST,Campbell,City Maintained Roads,04,25.0,0.673,Covington
+019-US-0027  -001,E 11TH ST+YORK ST,Campbell,State Maintained Roads,01,25.0,0.84,Covington
+059-CS-2023  -000,JOHNSON ST N,Kenton,City Maintained Roads,04,25.0,0.068,Covington
+008-CR-1002  -000,LONGBRANCH RD,Boone,County Maintained Roads,02,35.0,1.851,Covington
+059-CS-2218  -000,WEST PIKE ST,Kenton,City Maintained Roads,04,25.0,0.396,Covington
+059-CS-8124  -000,BUDS WAY,Kenton,City Maintained Roads,04,30.0,0.17,Covington
+059-CS-3801  -000,AMSTERDAM RD,Kenton,City Maintained Roads,04,35.0,0.752,Covington
+008-CS-2086  -000,OLD UNION RD,Boone,City Maintained Roads,04,35.0,0.169,Covington
+019-CR-1306  -000,WEST LOW GAP RD,Campbell,County Maintained Roads,02,35.0,0.698,Covington
+059-CS-2406  -000,WEST SOUTHERN AVE,Kenton,City Maintained Roads,04,25.0,0.062,Covington
+008-I -0075  -000,I-75,Boone,State Maintained Roads,01,70.0,10.161,Covington
+059-KY-0008  -000,RIVER RD,Kenton,State Maintained Roads,01,45.0,1.648,Covington
+059-KY-2967  -000,E ORCHARD RD,Kenton,State Maintained Roads,01,25.0,0.113,Covington
+059-KY-2372  -000,PARK RD+AMSTERDAM RD,Kenton,State Maintained Roads,01,35.0,0.581,Covington
+019-CS-2046  -000,COVERT RUN PIKE,Campbell,City Maintained Roads,04,25.0,0.855,Covington
+008-KY-0237  -000,NORTH BEND RD,Boone,State Maintained Roads,01,45.0,0.694,Covington
+059-CS-3066  -000,ERLANGER RD,Kenton,City Maintained Roads,04,25.0,0.109,Covington
+019-KY-1892  -000,S GRAND AVE+N GRAND AVE+GRAND AVE+CAROTHERS RD,Campbell,State Maintained Roads,01,35.0,2.568,Covington
+059-KY-1072  -000,HIGHLAND PIKE,Kenton,State Maintained Roads,01,35.0,0.731,Covington
+019-CS-7069  -000,E ALEXANDRIA PIKE,Campbell,City Maintained Roads,04,20.0,0.384,Covington
+019-KY-0009  -000,AA HWY+LICKING PIKE,Campbell,State Maintained Roads,01,45.0,1.31,Covington
+008-KY-0237  -000,PLEASANT VALLEY RD+CAMP ERNST RD,Boone,State Maintained Roads,01,45.0,0.991,Covington
+059-KY-3035  -000,MADISON PIKE,Kenton,State Maintained Roads,01,45.0,0.347,Covington
+019-KY-0547  -000,FOUR MILE RD,Campbell,State Maintained Roads,01,55.0,0.032,Covington
+008-CS-1002  -000,MALL RD,Boone,City Maintained Roads,04,35.0,1.52,Covington
+019-CS-1075  -000,W 12TH ST,Campbell,City Maintained Roads,04,25.0,0.261,Covington
+008-PR-1234  -000,WENDELL H FORD BLVD,Boone,Private Roads,26,35.0,1.708,Covington
+008-KY-0212  -000,AIRPORT ACCESS RD,Boone,State Maintained Roads,01,45.0,1.065,Covington
+059-KY-0177  -000,DECOURSEY PIKE,Kenton,State Maintained Roads,01,45.0,0.137,Covington
+019-KY-0471  -000,KY-471,Campbell,State Maintained Roads,01,45.0,0.19,Covington
+008-KY-0338  -000,IDLEWILD RD,Boone,State Maintained Roads,01,45.0,0.86,Covington
+019-KY-1997  -000,STONEHOUSE RD,Campbell,State Maintained Roads,01,55.0,4.592,Covington
+008-KY-1829  -000,INDUSTRIAL RD,Boone,State Maintained Roads,01,45.0,1.93,Covington
+059-KY-1829  -000,RICHARDSON RD,Kenton,State Maintained Roads,01,45.0,2.737,Covington
+059-US-0025  -000,DIXIE HWY+PIKE ST,Kenton,State Maintained Roads,01,35.0,0.624,Covington
+019-KY-2925  -000,E ALEXANDRIA PIKE,Campbell,State Maintained Roads,01,35.0,2.083,Covington
+059-CS-2208  -000,LEWIS ST,Kenton,City Maintained Roads,04,25.0,0.3,Covington
+059-CS-2093  -000,RUSSELL ST,Kenton,City Maintained Roads,04,25.0,0.728,Covington
+059-CS-7070  -000,BEECHWOOD RD,Kenton,City Maintained Roads,04,25.0,1.225,Covington
+059-KY-0017  -000,MADISON PIKE,Kenton,State Maintained Roads,01,55.0,4.753,Covington
+019-CS-1014  -000,E 4TH ST,Campbell,City Maintained Roads,04,30.0,0.089,Covington
+008-KY-0020  -000,BELLEVIEW RD,Boone,State Maintained Roads,01,55.0,6.232,Covington
+008-KY-0018  -000,BURLINGTON PIKE,Boone,State Maintained Roads,01,45.0,3.1,Covington
+008-CR-1058  -000,ROGERS LN,Boone,County Maintained Roads,02,25.0,0.372,Covington
+019-KY-0010  -000,W MAIN ST,Campbell,State Maintained Roads,01,35.0,0.338,Covington
+059-CS-5555  -000,THOMAS MORE PKWY,Kenton,City Maintained Roads,04,35.0,0.977,Covington
+008-KY-0842  -000,RICHARDSON RD,Boone,State Maintained Roads,01,40.0,0.283,Covington
+008-US-0042  -000,US-42,Boone,State Maintained Roads,01,35.0,0.355,Covington
+059-KY-1303  -000,TURKEYFOOT RD,Kenton,State Maintained Roads,01,35.0,0.398,Covington
+008-KY-0008  -000,RIVER RD,Boone,State Maintained Roads,01,35.0,1.799,Covington
+059-KY-0008  -000,PIKE ST+ELM ST+HIGHWAY AVE+CRESCENT AVE,Kenton,State Maintained Roads,01,30.0,2.772,Covington
+059-CS-2355  -000,HIGHLAND AVE,Kenton,City Maintained Roads,04,25.0,1.005,Covington
+008-US-0042  -000,US-42,Boone,State Maintained Roads,01,45.0,1.844,Covington
+059-CS-2043  -000,WEST 12TH ST,Kenton,City Maintained Roads,04,15.0,0.173,Covington
+008-KY-0020  -000,PETERSBURG RD,Boone,State Maintained Roads,01,55.0,5.786,Covington
+059-KY-2047  -000,SENOUR RD,Kenton,State Maintained Roads,01,35.0,1.394,Covington
+059-CS-4061  -000,THOMAS MORE PKWY,Kenton,City Maintained Roads,04,35.0,0.668,Covington
+008-CR-1016J -000,CAYTON RD,Boone,County Maintained Roads,02,35.0,0.518,Covington
+019-KY-0008  -000,MARY INGLES HWY,Campbell,State Maintained Roads,01,40.0,1.403,Covington
+059-CS-8039  -000,OLD TAYLOR MILL RD,Kenton,City Maintained Roads,04,35.0,1.218,Covington
+019-US-0027  -000,ALEXANDRIA PIKE+MONMOUTH ST,Campbell,State Maintained Roads,01,35.0,5.203,Covington
+059-CS-2004  -000,EAST 3RD ST,Kenton,City Maintained Roads,04,25.0,0.174,Covington
+059-KY-3716  -000,WAYMAN BRANCH RD,Kenton,State Maintained Roads,01,35.0,1.771,Covington
+059-KY-0236  -000,DONALDSON RD,Kenton,State Maintained Roads,01,45.0,0.524,Covington
+059-CS-3222  -000,BAKER ST,Kenton,City Maintained Roads,04,35.0,0.093,Covington
+008-KY-3076  -000,MINEOLA PIKE,Boone,State Maintained Roads,01,45.0,0.821,Covington
+019-KY-0915  -000,LICKING PIKE,Campbell,State Maintained Roads,01,55.0,7.5,Covington
+059-I -0275  -000,I-275,Kenton,State Maintained Roads,01,65.0,6.201,Covington
+019-KY-0547  -000,FOUR MILE RD,Campbell,State Maintained Roads,01,25.0,0.309,Covington
+019-CS-3045  -000,SEVENTH AVE,Campbell,City Maintained Roads,04,25.0,0.086,Covington
+059-KY-2373  -000,ERLANGER-CRESCENT SPRINGS RD,Kenton,State Maintained Roads,01,45.0,0.32,Covington
+059-CS-6140  -000,AMSTERDAM RD,Kenton,City Maintained Roads,04,35.0,1.039,Covington
+008-CS-1214  -000,GIRARD ST,Boone,City Maintained Roads,04,25.0,0.259,Covington
+059-CS-3123  -000,BRIGHTLEAF BLVD,Kenton,City Maintained Roads,04,35.0,0.377,Covington
+059-CR-1072  -000,HIGHWATER RD,Kenton,County Maintained Roads,02,35.0,1.827,Covington
+059-CS-2136  -000,GREENUP ST,Kenton,City Maintained Roads,04,25.0,0.767,Covington
+019-KY-0547  -000,FOUR MILE RD,Campbell,State Maintained Roads,01,35.0,2.678,Covington
+008-KY-0536  -000,MT ZION RD,Boone,State Maintained Roads,01,45.0,2.251,Covington
+059-CS-1045  -000,CODY RD,Kenton,City Maintained Roads,04,35.0,2.33,Covington
+019-CS-1075  -000,W 12TH ST,Campbell,City Maintained Roads,04,35.0,0.081,Covington
+059-KY-3070  -000,HOWARD LITZLER DR,Kenton,State Maintained Roads,01,35.0,0.101,Covington
+008-KY-0236  -000,DONALDSON HWY,Boone,State Maintained Roads,01,45.0,1.746,Covington
+019-KY-0008X -000,WASHINGTON AVE+DAVE COWENS DR+FAIRFIELD AVE,Campbell,State Maintained Roads,01,35.0,0.732,Covington
+019-KY-0471  -000,KY-471,Campbell,State Maintained Roads,01,55.0,0.508,Covington
+008-KY-0338  -000,IDLEWILD RD,Boone,State Maintained Roads,01,55.0,4.168,Covington
+059-KY-0177  -000,DECOURSEY PIKE,Kenton,State Maintained Roads,01,35.0,0.963,Covington
+059-CS-5079  -000,GARVEY AVE,Kenton,City Maintained Roads,04,20.0,0.96,Covington
+059-CS-7091  -000,ROYAL DR,Kenton,City Maintained Roads,04,25.0,0.653,Covington
+019-KY-2926  -000,WINTERS LN,Campbell,State Maintained Roads,01,20.0,1.401,Covington
+059-KY-1930  -000,WHITES RD+LOCUST PIKE,Kenton,State Maintained Roads,01,35.0,2.712,Covington
+059-US-0025  -000,PIKE ST+MAIN ST,Kenton,State Maintained Roads,01,30.0,1.061,Covington
+008-CR-1042A -000,LIMABURG RD,Boone,County Maintained Roads,02,45.0,3.219,Covington
+019-KY-2238  -000,UNIVERSITY DR+THREE MILE RD,Campbell,State Maintained Roads,01,45.0,0.867,Covington
+008-KY-0018  -000,BURLINGTON PIKE+WASHINGTON ST+BURLINGTON PIKE,Boone,State Maintained Roads,01,35.0,1.64,Covington
+019-CS-1022  -000,WASHINGTON AVE,Campbell,City Maintained Roads,04,25.0,0.713,Covington
+008-KY-0842  -000,HOPEFUL CHURCH RD,Boone,State Maintained Roads,01,40.0,2.192,Covington
+019-KY-0009  -000,LICKING PIKE,Campbell,State Maintained Roads,01,55.0,2.06,Covington
+059-KY-0017  -001,SCOTT ST,Kenton,State Maintained Roads,01,25.0,0.825,Covington
+059-KY-2047  -000,KLETTE RD+MARSHALL RD,Kenton,State Maintained Roads,01,35.0,2.587,Covington
+019-KY-2405  -000,KY-2405+NORSE BLVD,Campbell,State Maintained Roads,01,45.0,1.07,Covington
+059-KY-1486  -000,FOWLER CREEK RD,Kenton,State Maintained Roads,01,35.0,4.443,Covington
+059-KY-0371  -000,BUTTERMILK PIKE,Kenton,State Maintained Roads,01,35.0,1.59,Covington
+019-KY-1120  -000,E 10TH ST+MEMORIAL PKWY,Campbell,State Maintained Roads,01,35.0,0.849,Covington
+059-CS-2071  -000,WEST 8TH ST,Kenton,City Maintained Roads,04,25.0,0.171,Covington
+008-KY-0020  -000,PETERSBURG RD,Boone,State Maintained Roads,01,35.0,0.601,Covington
+059-KY-3716  -000,TAYLOR MILL RD,Kenton,State Maintained Roads,01,35.0,2.849,Covington
+008-KY-0338  -000,EAST BEND RD,Boone,State Maintained Roads,01,45.0,1.67,Covington
+019-KY-0445  -000,MARY INGLES HWY+RIVER RD,Campbell,State Maintained Roads,01,35.0,2.141,Covington
+059-CS-2216  -000,EAST 7TH ST,Kenton,City Maintained Roads,04,25.0,0.176,Covington
+019-US-0027  -000,MONMOUTH ST,Campbell,State Maintained Roads,01,25.0,0.719,Covington
+059-CS-2010  -000,E RIVERCENTER BLVD,Kenton,City Maintained Roads,04,25.0,0.086,Covington
+059-KY-2045  -000,COX RD,Kenton,State Maintained Roads,01,35.0,0.711,Covington
+059-KY-2373  -000,ERLANGER-CRESCENT SPRINGS RD+ANDERSON RD+BROMLEY-CRESCENT SPRINGS RD,Kenton,State Maintained Roads,01,35.0,3.289,Covington
+008-KY-3147  -000,OHARA RD,Boone,State Maintained Roads,01,35.0,0.6,Covington
+059-CS-3232  -000,AUTUMN RD,Kenton,City Maintained Roads,04,20.0,0.103,Covington
+059-CR-1317  -000,AMSTERDAM EAST RD,Kenton,County Maintained Roads,02,25.0,0.139,Covington
+019-KY-0008  -000,W 4TH ST+W 3RD ST,Campbell,State Maintained Roads,01,30.0,0.683,Covington
+008-KY-0237  -000,NORTH BEND RD,Boone,State Maintained Roads,01,55.0,3.9,Covington
+019-CS-3085  -000,DAYTON PIKE,Campbell,City Maintained Roads,04,25.0,0.716,Covington
+019-CS-2033  -000,GLAZIER AVE,Campbell,City Maintained Roads,04,25.0,0.214,Covington
+019-KY-0709  -000,E ALEXANDRIA PIKE,Campbell,State Maintained Roads,01,45.0,0.476,Covington
+059-CS-2627  -000,W RIVERCENTER BLVD,Kenton,City Maintained Roads,04,25.0,0.236,Covington
+008-KY-0018  -000,MCVILLE RD+BURLINGTON PIKE,Boone,State Maintained Roads,01,35.0,1.232,Covington
+019-CS-1038  -000,E 5TH ST,Campbell,City Maintained Roads,04,30.0,0.178,Covington
+059-KY-0016  -000,WINSTON AVE+DECOURSEY AVE,Kenton,State Maintained Roads,01,25.0,0.315,Covington
+059-KY-0177  -000,DECOURSEY PIKE,Kenton,State Maintained Roads,01,45.0,2.471,Covington
+019-KY-0547  -000,RILEY RD+FOUR MILE RD,Campbell,State Maintained Roads,01,35.0,1.0,Covington
+059-KY-0842  -000,RICHARDSON RD,Kenton,State Maintained Roads,01,40.0,0.264,Covington
+008-KY-0495  -000,GRAVES RD,Boone,State Maintained Roads,01,45.0,2.206,Covington
+019-CS-4181  -000,COVERT RUN PIKE,Campbell,City Maintained Roads,04,25.0,0.435,Covington
+019-US-0027  -000,ALEXANDRIA PIKE,Campbell,State Maintained Roads,01,40.0,1.748,Covington
+008-KY-0237  -000,PLEASANT VALLEY RD,Boone,State Maintained Roads,01,45.0,2.457,Covington
+019-KY-0008X -000,FOURTH AVE,Campbell,State Maintained Roads,01,35.0,0.339,Covington
+019-KY-6335  -000,MARY INGLES HWY,Campbell,State Maintained Roads,01,35.0,0.584,Covington
+008-CS-1286  -000,NEW BUFFINGTON,Boone,City Maintained Roads,04,35.0,0.444,Covington
+008-KY-2847  -000,EMPIRE DR,Boone,State Maintained Roads,01,35.0,0.726,Covington
+019-KY-1566  -000,ONEONTA RD,Campbell,State Maintained Roads,01,55.0,1.809,Covington
+059-US-0025  -000,DIXIE HWY,Kenton,State Maintained Roads,01,45.0,0.632,Covington
+008-PR-1012  -000,SOUTH AIRFIELD DR,Boone,Private Roads,26,45.0,1.083,Covington
+059-KY-3148  -000,OLD MADISON PIKE,Kenton,State Maintained Roads,01,35.0,0.35,Covington
+019-CS-1006  -000,PARK AVE,Campbell,City Maintained Roads,04,25.0,0.094,Covington
+059-KY-0017  -000,MADISON PIKE,Kenton,State Maintained Roads,01,55.0,2.224,Covington
+008-KY-0018  -000,BURLINGTON PIKE,Boone,State Maintained Roads,01,45.0,1.407,Covington
+059-KY-0017X -000,MADISON PIKE,Kenton,State Maintained Roads,01,35.0,1.274,Covington
+059-KY-1120  -000,WEST MARTIN LUTHER KING JR BLVD+EAST MARTIN LUTHER KING JR BLVD,Kenton,State Maintained Roads,01,30.0,1.145,Covington
+008-CR-1056  -000,CONRAD LN,Boone,County Maintained Roads,02,35.0,1.223,Covington
+059-CS-2203  -000,SCOTT ST,Kenton,City Maintained Roads,04,25.0,0.752,Covington
+059-CS-6150  -000,VALLEY TRAILS DR,Kenton,City Maintained Roads,04,20.0,0.899,Covington
+059-CS-5548  -000,RHINE VALLEY LN,Kenton,City Maintained Roads,04,25.0,0.29,Covington
+059-XX-1303  -000,TURKEYFOOT RD,Kenton,State Maintained Roads,01,35.0,0.113,Covington
+008-CR-1311  -000,OLD GRAVES RD,Boone,County Maintained Roads,02,35.0,0.309,Covington
+059-CS-2103  -000,MADISON AVE,Kenton,City Maintained Roads,04,25.0,0.844,Covington
+059-KY-1829  -000,INDUSTRIAL RD,Kenton,State Maintained Roads,01,45.0,1.024,Covington
+019-KY-0009  -000,LOWELL ST,Campbell,State Maintained Roads,01,25.0,0.892,Covington
+059-CS-2027  -000,EAST 8TH ST,Kenton,City Maintained Roads,04,25.0,0.176,Covington
+008-KY-0338  -000,BEAVER RD+EAST BEND RD,Boone,State Maintained Roads,01,55.0,9.816,Covington
+008-KY-1017  -000,AERO PKWY+TURFWAY RD,Boone,State Maintained Roads,01,45.0,3.984,Covington
+059-KY-1120  -001,EAST 11TH ST+PROSPECT ST,Kenton,State Maintained Roads,01,30.0,0.447,Covington
+019-CS-2003  -000,DONNERMEYER BLVD,Campbell,City Maintained Roads,04,25.0,0.215,Covington
+019-KY-2924  -000,TOLLGATE RD,Campbell,State Maintained Roads,01,35.0,0.885,Covington
+059-CS-5075  -000,NEW BUFFINGTON RD,Kenton,City Maintained Roads,04,35.0,0.689,Covington
+019-CR-1316  -000,DODSWORTH LN,Campbell,County Maintained Roads,02,35.0,1.342,Covington
+059-CS-9054  -000,ASHWOOD CIR,Kenton,City Maintained Roads,04,25.0,0.098,Covington
+019-KY-1120  -000,MEMORIAL PKWY+N FT THOMAS AVE+S FT THOMAS AVE,Campbell,State Maintained Roads,01,25.0,2.267,Covington
+008-CR-1011  -000,OAKBROOK RD,Boone,County Maintained Roads,02,35.0,2.63,Covington
+059-CS-2326  -000,MONTAGUE RD,Kenton,City Maintained Roads,04,25.0,0.199,Covington
+008-KY-0020  -000,PETERSBURG RD,Boone,State Maintained Roads,01,45.0,0.409,Covington
+019-I -0471  -000,I-471,Campbell,State Maintained Roads,01,65.0,4.701,Covington
+059-CS-1560  -000,ADELA AVE,Kenton,City Maintained Roads,04,20.0,0.612,Covington
+019-US-0027  -000,ALEXANDRIA PIKE,Campbell,State Maintained Roads,01,45.0,1.686,Covington
+059-CS-2468  -000,WEST 43RD ST,Kenton,City Maintained Roads,04,25.0,0.345,Covington
+059-CS-3868  -000,WESTERN RESERVE RD,Kenton,City Maintained Roads,04,25.0,0.552,Covington
+008-KY-3503  -000,EMPIRE CONN+EMPIRE DR,Boone,State Maintained Roads,01,35.0,0.981,Covington
+059-KY-2373  -000,KENTON LANDS RD,Kenton,State Maintained Roads,01,25.0,0.445,Covington
+059-KY-0008  -000,RIVER RD+PIKE ST,Kenton,State Maintained Roads,01,40.0,1.56,Covington
+059-KY-0536  -000,MOUNT ZION RD,Kenton,State Maintained Roads,01,45.0,0.751,Covington
+059-I -0075  -000,I-75,Kenton,State Maintained Roads,01,55.0,7.977,Covington
+008-KY-0237  -000,NORTH BEND RD,Boone,State Maintained Roads,01,55.0,0.284,Covington
+008-I -0075  -000,I-75,Boone,State Maintained Roads,01,65.0,3.712,Covington
+019-CS-2089  -000,BONNIE LESLIE AVE,Campbell,City Maintained Roads,04,20.0,0.212,Covington

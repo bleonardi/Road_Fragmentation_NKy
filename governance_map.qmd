@@ -1,0 +1,47 @@
+---
+title: "Governance Map"
+subtitle: "Municipal fragmentation in the study area"
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(sf)
+library(leaflet)
+```
+
+```{r governance-map}
+places  <- st_read("data/places.gpkg",  quiet = TRUE) |> st_transform(4326)
+counties <- st_read("data/counties.gpkg", quiet = TRUE) |> st_transform(4326)
+
+pal_state <- colorFactor(
+  palette = c("#2c3e50","#c0392b"),
+  domain  = c("OH","KY")
+)
+
+leaflet() |>
+  addProviderTiles(providers$CartoDB.Positron) |>
+  addPolygons(
+    data        = counties,
+    color       = "#666",
+    weight      = 2,
+    fillOpacity = 0,
+    popup       = ~paste0("<b>", NAME, " County</b><br>", region)
+  ) |>
+  addPolygons(
+    data        = places,
+    color       = ~pal_state(state),
+    weight      = 1.5,
+    fillColor   = ~pal_state(state),
+    fillOpacity = 0.15,
+    popup       = ~paste0("<b>", NAME, "</b><br>State: ", state)
+  ) |>
+  addLegend(
+    pal      = pal_state,
+    values   = places$state,
+    labels   = c("Ohio (Cincinnati)", "Kentucky (NKy municipalities)"),
+    title    = "Governance",
+    position = "bottomright"
+  )
+```
+
+Each polygon in Kentucky represents an independent municipality with its own road design authority. The contrast with Hamilton County — where Cincinnati sets standards across the whole urban area — is the governance gap this study tests.

@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Road Fragmentation: NKy vs. Cincinnati"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Analysis
+      - href: lts_map.qmd
+        text: Hostility Map
+      - href: governance_map.qmd
+        text: Governance Map
+
+format:
+  html:
+    theme: [flatly, assets/custom.scss]
+    toc: true
+    toc-depth: 3
+    linestretch: 1.6
+    code-fold: true
+    highlight-style: github
+    df-print: kable
+    page-layout: article
