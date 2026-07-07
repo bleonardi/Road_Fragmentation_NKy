@@ -201,3 +201,8 @@ The aggregate hostility scores are close (0.341 vs. 0.310), which would seem to 
 The fragmentation mechanism here isn't "NKy has uniformly worse roads." It's that the NKy patchwork can't enforce consistent design standards on its arterial network. Each municipality makes independent decisions about design speed, access management, and pedestrian accommodation on roads that carry cross-jurisdictional traffic. The result is a primary road network calibrated for throughput, not for the pedestrian trying to walk from Newport to Covington.
 
 The data coverage asymmetry is also worth flagging: Cincinnati has a comprehensive official road inventory; NKy doesn't. That institutional gap is a precondition for the design gap — you can't coordinate what you haven't measured.
+
+
+---
+
+*[View source on GitHub](https://github.com/bleonardi/Road_Fragmentation_NKy){target="_blank"}*
